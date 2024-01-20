@@ -1,0 +1,4 @@
+// Лучше хранить в LockBox
+
+BOT_TOKEN = 6750336480:AAHIfiNN9LL1kXwTyUYh85CCeH6MsoeOZAk
+API_KEY = 999aa9999aa99999a9aaaaa99a9a999a

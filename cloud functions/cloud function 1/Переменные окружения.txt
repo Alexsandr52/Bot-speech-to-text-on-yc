@@ -1,0 +1,6 @@
+// Лучше хранить в LockBox
+
+AWS_ACCESS_KEY_ID = YCAJEaIO6a1HB_18n7P5w1BIW
+AWS_SECRET_ACCESS_KEY = YCNqS1JcZJdtK2sq4uu7arxVaT4bnT_cLaJ989jS
+YMQ_QUEUE_URL = https://message-queue.api.cloud.yandex.net/b1govmlmj2lp1vuhvlms/dj600000001a9boi03ap/to_do_list
+BOT_TOKEN = 6750336480:AAHIfiNN9LL1kXwTyUYh85CCeH6MsoeOZAk
