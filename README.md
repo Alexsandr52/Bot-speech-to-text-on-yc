@@ -205,7 +205,7 @@ async def voice_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     except:
         await update.message.reply_text(text=replica.ERROR_TRANSLATE)
 ```
-Такие функции служат для обработки каких либо действий. Которы мы укажем позже. Например, при получение команды /start мы в дальнейшем будем вызывать `start_handler()` которая отправит нам сообщение `replica.START_DEF`. Если вы пишите свои личные функции советую пользоваться [документацией](https://www.bing.com/search?q=python-telegram-bot&cvid=19751b2f68c74220884bbd0af63fff29&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQIxgnMgYIAhBFGDsyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEEUYPDIGCAcQRRg8MgYICBBFGDzSAQgxNjc0ajBqOagCALACAA&FORM=ANAB01&PC=NMTS) ибо гайды устаривают.
+Такие функции служат для обработки каких либо действий. Которы мы укажем позже. Например, при получение команды /start мы в дальнейшем будем вызывать `start_handler()` которая отправит нам сообщение `replica.START_DEF`. Если вы пишите свои личные функции советую пользоваться [документацией](https://docs.python-telegram-bot.org/en/v20.7/) ибо гайды устаривают.
 
 **Класс бота**
 ```python
