@@ -1,0 +1,16 @@
+openapi: "3.0.0"
+info:
+  version: 1.0.0
+  title: Test API
+servers:
+- url: https://d5d12lonn1r16h60eu9d.apigw.yandexcloud.net
+paths:
+  /echo:
+    post:
+      x-yc-apigateway-integration:
+        type: cloud_ymq
+        action: SendMessage
+        queue_url: https://message-queue.api.cloud.yandex.net/b1govmlmj2lp1vuhvlms/dj600000001a902a03ap/tg-bot-app-dt9fjobbc07r0qbdbsgj
+        folder_id: b1g26vk6l5qulgv71cfi
+        delay_seconds: 0
+        service_account_id: ajeqs2cau6u0g13q6us2
